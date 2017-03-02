@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00929A461E68995100ABEA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00929A451E68995100ABEA6D /* AppDelegate.swift */; };
+		00929A481E68995100ABEA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00929A471E68995100ABEA6D /* ViewController.swift */; };
+		00929A4B1E68995100ABEA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00929A491E68995100ABEA6D /* Main.storyboard */; };
+		00929A4E1E68995100ABEA6D /* AutoSizeTextView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00929A4C1E68995100ABEA6D /* AutoSizeTextView.xcdatamodeld */; };
+		00929A501E68995100ABEA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00929A4F1E68995100ABEA6D /* Assets.xcassets */; };
+		00929A531E68995100ABEA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00929A511E68995100ABEA6D /* LaunchScreen.storyboard */; };
+		00929A5E1E68995200ABEA6D /* AutoSizeTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00929A5D1E68995200ABEA6D /* AutoSizeTextViewTests.swift */; };
+		00929A691E68995200ABEA6D /* AutoSizeTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00929A681E68995200ABEA6D /* AutoSizeTextViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00929A5A1E68995200ABEA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00929A3A1E68995100ABEA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00929A411E68995100ABEA6D;
+			remoteInfo = AutoSizeTextView;
+		};
+		00929A651E68995200ABEA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00929A3A1E68995100ABEA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00929A411E68995100ABEA6D;
+			remoteInfo = AutoSizeTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00929A421E68995100ABEA6D /* AutoSizeTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSizeTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00929A451E68995100ABEA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00929A471E68995100ABEA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00929A4A1E68995100ABEA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00929A4D1E68995100ABEA6D /* AutoSizeTextView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoSizeTextView.xcdatamodel; sourceTree = "<group>"; };
+		00929A4F1E68995100ABEA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00929A521E68995100ABEA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00929A541E68995100ABEA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00929A591E68995200ABEA6D /* AutoSizeTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSizeTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00929A5D1E68995200ABEA6D /* AutoSizeTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizeTextViewTests.swift; sourceTree = "<group>"; };
+		00929A5F1E68995200ABEA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00929A641E68995200ABEA6D /* AutoSizeTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSizeTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00929A681E68995200ABEA6D /* AutoSizeTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizeTextViewUITests.swift; sourceTree = "<group>"; };
+		00929A6A1E68995200ABEA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00929A3F1E68995100ABEA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A561E68995200ABEA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A611E68995200ABEA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00929A391E68995100ABEA6D = {
+			isa = PBXGroup;
+			children = (
+				00929A441E68995100ABEA6D /* AutoSizeTextView */,
+				00929A5C1E68995200ABEA6D /* AutoSizeTextViewTests */,
+				00929A671E68995200ABEA6D /* AutoSizeTextViewUITests */,
+				00929A431E68995100ABEA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00929A431E68995100ABEA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00929A421E68995100ABEA6D /* AutoSizeTextView.app */,
+				00929A591E68995200ABEA6D /* AutoSizeTextViewTests.xctest */,
+				00929A641E68995200ABEA6D /* AutoSizeTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00929A441E68995100ABEA6D /* AutoSizeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				00929A451E68995100ABEA6D /* AppDelegate.swift */,
+				00929A471E68995100ABEA6D /* ViewController.swift */,
+				00929A491E68995100ABEA6D /* Main.storyboard */,
+				00929A4F1E68995100ABEA6D /* Assets.xcassets */,
+				00929A511E68995100ABEA6D /* LaunchScreen.storyboard */,
+				00929A541E68995100ABEA6D /* Info.plist */,
+				00929A4C1E68995100ABEA6D /* AutoSizeTextView.xcdatamodeld */,
+			);
+			path = AutoSizeTextView;
+			sourceTree = "<group>";
+		};
+		00929A5C1E68995200ABEA6D /* AutoSizeTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				00929A5D1E68995200ABEA6D /* AutoSizeTextViewTests.swift */,
+				00929A5F1E68995200ABEA6D /* Info.plist */,
+			);
+			path = AutoSizeTextViewTests;
+			sourceTree = "<group>";
+		};
+		00929A671E68995200ABEA6D /* AutoSizeTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00929A681E68995200ABEA6D /* AutoSizeTextViewUITests.swift */,
+				00929A6A1E68995200ABEA6D /* Info.plist */,
+			);
+			path = AutoSizeTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00929A411E68995100ABEA6D /* AutoSizeTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00929A6D1E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextView" */;
+			buildPhases = (
+				00929A3E1E68995100ABEA6D /* Sources */,
+				00929A3F1E68995100ABEA6D /* Frameworks */,
+				00929A401E68995100ABEA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoSizeTextView;
+			productName = AutoSizeTextView;
+			productReference = 00929A421E68995100ABEA6D /* AutoSizeTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00929A581E68995200ABEA6D /* AutoSizeTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00929A701E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextViewTests" */;
+			buildPhases = (
+				00929A551E68995200ABEA6D /* Sources */,
+				00929A561E68995200ABEA6D /* Frameworks */,
+				00929A571E68995200ABEA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00929A5B1E68995200ABEA6D /* PBXTargetDependency */,
+			);
+			name = AutoSizeTextViewTests;
+			productName = AutoSizeTextViewTests;
+			productReference = 00929A591E68995200ABEA6D /* AutoSizeTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00929A631E68995200ABEA6D /* AutoSizeTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00929A731E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextViewUITests" */;
+			buildPhases = (
+				00929A601E68995200ABEA6D /* Sources */,
+				00929A611E68995200ABEA6D /* Frameworks */,
+				00929A621E68995200ABEA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00929A661E68995200ABEA6D /* PBXTargetDependency */,
+			);
+			name = AutoSizeTextViewUITests;
+			productName = AutoSizeTextViewUITests;
+			productReference = 00929A641E68995200ABEA6D /* AutoSizeTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00929A3A1E68995100ABEA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Jin Woong Kim";
+				TargetAttributes = {
+					00929A411E68995100ABEA6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					00929A581E68995200ABEA6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00929A411E68995100ABEA6D;
+					};
+					00929A631E68995200ABEA6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00929A411E68995100ABEA6D;
+					};
+				};
+			};
+			buildConfigurationList = 00929A3D1E68995100ABEA6D /* Build configuration list for PBXProject "AutoSizeTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00929A391E68995100ABEA6D;
+			productRefGroup = 00929A431E68995100ABEA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00929A411E68995100ABEA6D /* AutoSizeTextView */,
+				00929A581E68995200ABEA6D /* AutoSizeTextViewTests */,
+				00929A631E68995200ABEA6D /* AutoSizeTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00929A401E68995100ABEA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00929A531E68995100ABEA6D /* LaunchScreen.storyboard in Resources */,
+				00929A501E68995100ABEA6D /* Assets.xcassets in Resources */,
+				00929A4B1E68995100ABEA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A571E68995200ABEA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A621E68995200ABEA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00929A3E1E68995100ABEA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00929A481E68995100ABEA6D /* ViewController.swift in Sources */,
+				00929A461E68995100ABEA6D /* AppDelegate.swift in Sources */,
+				00929A4E1E68995100ABEA6D /* AutoSizeTextView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A551E68995200ABEA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00929A5E1E68995200ABEA6D /* AutoSizeTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00929A601E68995200ABEA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00929A691E68995200ABEA6D /* AutoSizeTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00929A5B1E68995200ABEA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00929A411E68995100ABEA6D /* AutoSizeTextView */;
+			targetProxy = 00929A5A1E68995200ABEA6D /* PBXContainerItemProxy */;
+		};
+		00929A661E68995200ABEA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00929A411E68995100ABEA6D /* AutoSizeTextView */;
+			targetProxy = 00929A651E68995200ABEA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00929A491E68995100ABEA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00929A4A1E68995100ABEA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00929A511E68995100ABEA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00929A521E68995100ABEA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00929A6B1E68995200ABEA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00929A6C1E68995200ABEA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00929A6E1E68995200ABEA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoSizeTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00929A6F1E68995200ABEA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoSizeTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		00929A711E68995200ABEA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoSizeTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoSizeTextView.app/AutoSizeTextView";
+			};
+			name = Debug;
+		};
+		00929A721E68995200ABEA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoSizeTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoSizeTextView.app/AutoSizeTextView";
+			};
+			name = Release;
+		};
+		00929A741E68995200ABEA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AutoSizeTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AutoSizeTextView;
+			};
+			name = Debug;
+		};
+		00929A751E68995200ABEA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AutoSizeTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bashlord.AutoSizeTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AutoSizeTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00929A3D1E68995100ABEA6D /* Build configuration list for PBXProject "AutoSizeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00929A6B1E68995200ABEA6D /* Debug */,
+				00929A6C1E68995200ABEA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00929A6D1E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00929A6E1E68995200ABEA6D /* Debug */,
+				00929A6F1E68995200ABEA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00929A701E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00929A711E68995200ABEA6D /* Debug */,
+				00929A721E68995200ABEA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00929A731E68995200ABEA6D /* Build configuration list for PBXNativeTarget "AutoSizeTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00929A741E68995200ABEA6D /* Debug */,
+				00929A751E68995200ABEA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00929A4C1E68995100ABEA6D /* AutoSizeTextView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00929A4D1E68995100ABEA6D /* AutoSizeTextView.xcdatamodel */,
+			);
+			currentVersion = 00929A4D1E68995100ABEA6D /* AutoSizeTextView.xcdatamodel */;
+			path = AutoSizeTextView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00929A3A1E68995100ABEA6D /* Project object */;
+}
